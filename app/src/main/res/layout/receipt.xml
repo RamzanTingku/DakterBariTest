@@ -119,7 +119,7 @@
                 android:layout_height="30dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:src="@drawable/doctor" />
+                android:src="@drawable/call" />
 
             <TextView
                 android:id="@+id/tv_call_from_doc"
@@ -147,7 +147,7 @@
                 android:layout_height="30dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:src="@drawable/doctor" />
+                android:src="@drawable/vidcall" />
 
             <TextView
                 android:id="@+id/tv_vid_chat"
@@ -174,7 +174,7 @@
                 android:layout_height="30dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:src="@drawable/doctor" />
+                android:src="@drawable/msg" />
 
             <TextView
                 android:id="@+id/tv_msg"
