@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_askfree"
+            android:checked="true"
+            android:title="Ask Free" />
+
+        <item
+            android:id="@+id/nav_find"
+            android:title="Find Doctor/Hospital" />
+        <item
+            android:id="@+id/nav_add_file"
+            android:title="Add file/report" />
+        <item
+            android:id="@+id/nav_services"
+            android:title="Our Services" />
+        <item
+            android:id="@+id/nav_appointment"
+            android:title="Appointment" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="My profile" />
+                <item
+                    android:id="@+id/nav_prescription"
+                    android:title="My prescription" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

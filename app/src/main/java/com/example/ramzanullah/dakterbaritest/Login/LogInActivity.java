@@ -10,15 +10,15 @@ import com.example.ramzanullah.dakterbaritest.R;
 
 public class LogInActivity extends AppCompatActivity {
 
-   private ActionBar actionBar;
+  /* private ActionBar actionBar;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        actionBar = getSupportActionBar();
+       /* actionBar = getSupportActionBar();
         actionBar.hide();
-
+*/
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
         ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);

@@ -11,9 +11,9 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:padding="15dp"
-        android:background="@drawable/edt_text"
+        android:background="@drawable/background_box"
         android:hint="Enter verification code"
         android:textColor="@color/colorText"
         android:textSize="15dp" />
@@ -25,7 +25,7 @@
         android:textColor="@color/colorText"
         android:textSize="20dp"
         android:layout_width="300dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="45dp"
         android:background="#13CE66"/>

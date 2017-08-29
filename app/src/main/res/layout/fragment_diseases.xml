@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    tools:context="com.example.ramzanullah.dakterbaritest.DiseasesFragment">
+
+<TextView
+    android:id="@+id/tv_diseases"
+    android:hint="Hepatities B"
+    android:textSize="22sp"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/background_box"
+    />
+
+    <SearchView
+        android:id="@+id/sv_diseases"
+        android:queryHint="@string/query_diseases"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

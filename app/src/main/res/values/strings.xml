@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">DakterBariTest</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Open navigation close</string>
+    <string name="query_diseases">Search Diseases</string>
+    <string name="query_medicine">Search Medicine</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

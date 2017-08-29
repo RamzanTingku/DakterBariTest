@@ -10,9 +10,9 @@
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="100dp"
         android:padding="15dp"
-        android:background="@drawable/edt_text"
+        android:background="@drawable/background_box"
         android:hint="Enter Phone Number"
         android:inputType="phone"
         android:textColor="@color/colorText"
@@ -27,7 +27,7 @@
         android:layout_marginTop="20dp"
         android:padding="15dp"
         android:layout_gravity="center"
-        android:background="@drawable/edt_text"
+        android:background="@drawable/background_box"
         android:textColor="@color/colorText"
         android:textSize="15dp"
         />
@@ -39,16 +39,17 @@
         android:textColor="@color/colorText"
         android:textSize="20dp"
         android:layout_width="300dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="35dp"
         android:background="#13CE66"/>
 
     <TextView
-        android:text="Dont have an account?Signup"
+        android:text="Don't have an account?Signup"
         android:textSize="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
         android:layout_gravity="center"
         android:layout_marginTop="35dp"/>
 
@@ -59,7 +60,7 @@
         android:textColor="@color/colorText"
         android:textSize="20dp"
         android:layout_width="300dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="#13CE66"/>
