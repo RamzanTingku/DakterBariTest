@@ -4,8 +4,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:paddingBottom="10dp"
-    tools:context="com.example.ramzanullah.dakterbaritest.DiseasesFragment">
+
+    tools:context="com.example.ramzanullah.dakterbaritest.nav_drawer.DiseasesFragment">
 
 <TextView
     android:id="@+id/tv_diseases"
@@ -24,7 +24,7 @@
     <SearchView
         android:id="@+id/sv_diseases"
         android:queryHint="@string/query_diseases"
-
+        android:background="@drawable/filter_box"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

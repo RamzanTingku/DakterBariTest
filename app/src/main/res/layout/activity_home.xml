@@ -2,54 +2,56 @@
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_home_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/drawer_home_layout"
     android:fitsSystemWindows="true"
     android:scrollbars="none"
-    tools:openDrawer="start"
-    tools:context="com.example.ramzanullah.dakterbaritest.HomeActivity">
-    
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    tools:context="com.example.ramzanullah.dakterbaritest.nav_drawer.HomeActivity"
+    tools:openDrawer="start">
 
-        <android.support.v7.widget.Toolbar
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?attr/colorPrimary"
-            android:theme="?attr/actionBarTheme"
-            android:minHeight="?attr/actionBarSize"
-            android:id="@+id/toolbar" />
+            android:orientation="vertical">
 
-        <FrameLayout
-            android:id="@+id/frame_content"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
 
-        </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frame_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-    </LinearLayout>
+            </FrameLayout>
 
-        <android.support.design.widget.NavigationView
+        </LinearLayout>
 
-            android:id="@+id/nav_layout"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            android:fitsSystemWindows="false"
-            android:background="#1E2D3E"
-            android:scrollbars="none"
-            app:headerLayout="@layout/nav_header"
-            app:itemTextAppearance="@style/TextAppearance.AppCompat.Medium"
-            app:menu="@menu/menu_drawer"
-            app:itemIconTint="@color/colorWhite"
-            app:itemTextColor="#BDC1C6"
-            android:theme="@style/DrawerStyle">
 
-        </android.support.design.widget.NavigationView>
 
+    <android.support.design.widget.NavigationView
+
+        android:id="@+id/nav_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#1E2D3E"
+        android:fitsSystemWindows="false"
+        android:scrollbars="none"
+        android:theme="@style/DrawerStyle"
+        app:headerLayout="@layout/nav_header"
+        app:itemIconTint="@color/colorWhite"
+        app:itemTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:itemTextColor="#BDC1C6"
+        app:menu="@menu/menu_drawer">
+
+    </android.support.design.widget.NavigationView>
 
 
 </android.support.v4.widget.DrawerLayout>

@@ -4,12 +4,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context="com.example.ramzanullah.dakterbaritest.DoctorFragment">
+    tools:context="com.example.ramzanullah.dakterbaritest.nav_drawer.DoctorFragment">
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="140dp"
         android:background="@drawable/background_box"
         android:orientation="horizontal">
 
@@ -28,19 +28,17 @@
                 android:id="@+id/iv_doc_photo"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="3"
-
+                android:layout_weight="4"
                 android:src="@drawable/doctor" />
 
             <TextView
                 android:id="@+id/tv_doc_online_status"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_gravity="center"
                 android:layout_weight="1"
-                android:padding="5dp"
+                android:layout_gravity="center"
                 android:text="Online"
-                android:textSize="18sp" />
+                android:textSize="17sp" />
 
         </LinearLayout>
 
@@ -49,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:orientation="vertical"
-            android:paddingBottom="15dp"
+            android:paddingBottom="10dp"
             android:paddingLeft="8dp"
             android:paddingRight="10dp"
             android:paddingTop="20dp">
@@ -72,14 +70,14 @@
                 android:id="@+id/tv_doc_speciality"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="5dp"
                 android:text="Cardiologist"
                 android:textSize="18sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <TextView

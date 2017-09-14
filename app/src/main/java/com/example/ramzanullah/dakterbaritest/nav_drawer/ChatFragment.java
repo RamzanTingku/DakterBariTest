@@ -1,4 +1,4 @@
-package com.example.ramzanullah.dakterbaritest;
+package com.example.ramzanullah.dakterbaritest.nav_drawer;
 
 
 import android.os.Bundle;
@@ -7,14 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.ramzanullah.dakterbaritest.R;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class DiseasesFragment extends Fragment {
+public class ChatFragment extends Fragment {
 
 
-    public DiseasesFragment() {
+    public ChatFragment() {
         // Required empty public constructor
     }
 
@@ -23,7 +24,7 @@ public class DiseasesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_diseases, container, false);
+        return inflater.inflate(R.layout.fragment_chat, container, false);
     }
 
 }

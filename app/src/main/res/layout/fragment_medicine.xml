@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp"
-    tools:context="com.example.ramzanullah.dakterbaritest.MedicineFragment">
+    tools:context="com.example.ramzanullah.dakterbaritest.nav_drawer.MedicineFragment">
 
     <TextView
         android:id="@+id/tv_medicine"
@@ -22,6 +21,7 @@
 
     <SearchView
         android:id="@+id/sv_medicine"
+        android:background="@drawable/filter_box"
         android:queryHint="@string/query_medicine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

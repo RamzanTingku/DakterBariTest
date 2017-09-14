@@ -1,7 +1,6 @@
 package com.example.ramzanullah.dakterbaritest.Login;
 
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.ramzanullah.dakterbaritest.HomeActivity;
+import com.example.ramzanullah.dakterbaritest.nav_drawer.HomeActivity;
 import com.example.ramzanullah.dakterbaritest.R;
 
 
