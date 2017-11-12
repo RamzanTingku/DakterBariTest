@@ -116,7 +116,7 @@
             <ImageView
                 android:id="@+id/iv_call_from_doc"
                 android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_height="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:src="@drawable/call" />
@@ -144,7 +144,7 @@
             <ImageView
                 android:id="@+id/iv_vid_chat"
                 android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_height="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:src="@drawable/vidcall" />
@@ -171,7 +171,7 @@
             <ImageView
                 android:id="@+id/iv_msg"
                 android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_height="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:src="@drawable/msg" />
@@ -195,7 +195,7 @@
 
     <Button
         android:id="@+id/btn_pay_now"
-        android:text="Confirm &amp; Pay Now"
+        android:text="Pay Now"
         android:textAllCaps="false"
         android:textSize="20sp"
         android:background="#8190A5"
@@ -204,15 +204,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"/>
 
-    <Button
+   <!-- <Button
         android:id="@+id/btn_pay_later"
-        android:text="Confirm &amp; Pay Later"
+        android:text="Pay Later"
         android:textAllCaps="false"
         android:textSize="20sp"
         android:background="#8190A5"
         android:textColor="@color/colorPrimary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"/>
+        android:layout_margin="5dp"/>-->
 
 </LinearLayout>

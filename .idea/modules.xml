@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DakterBariTest.iml" filepath="$PROJECT_DIR$/DakterBariTest.iml" />
+      <module fileurl="file://G:\Documents\AndroidProjects\AraSoft\DakterBariUI\DakterBariTest.iml" filepath="G:\Documents\AndroidProjects\AraSoft\DakterBariUI\DakterBariTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DakterBariUI.iml" filepath="$PROJECT_DIR$/.idea/DakterBariUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://G:\Documents\AndroidProjects\AraSoft\DakterBariUI\app\app.iml" filepath="G:\Documents\AndroidProjects\AraSoft\DakterBariUI\app\app.iml" />
     </modules>
   </component>
 </project>
